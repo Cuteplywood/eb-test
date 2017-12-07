@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+           
+a{
+    text-decoration: none;
+    display: block;
+
+}
+
+.content{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(10, minmax(50px, 1fr));
+    grid-template-rows: repeat(30, 80px);  
+    grid-gap: 8px;
+    margin-left: -0.5vw;
+
+}
+    
+.side{
+    position: fixed; top: 0px; left: 0px; 
+    height: 100vh; 
+    width: 12vw;
+    /*border-right: 2px solid hsl(0, 100%, 74%);*/
+   
+}
+
+.backbox{
+    position: fixed; top: 14vh; left: 1.7vw;
+    height: 34vh;
+    width: 14vw;
+    border-radius: 10px;
+    z-index: 0;
+    color: white;
+    
+    
+    box-shadow: 2px 2px 5px 5px hsla(0, 0%, 78%, 0.12);
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 9vw;
+    grid-template-rows: repeat(10, 50px);
+    grid-gap: 5px 0;
+    margin-left: 20%;
+    margin-top: 100%;
+    list-style-type: none;
+
+}
+
+li{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 1rem;
+    color: black;
+
+}
+      
+h2{
+    font-family: 'Hannari', sans-serif;
+    font-size: 4rem;
+}
+
+.titlest1{
+    grid-column: 3 / 10;
+    grid-row: 2 / 3;
+    margin-top: -8vh;
+}   
+
+p1{
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: hsl(0, 100%, 74%);
+
+}
+
+p2{
+    font-family: 'Noto Sans Japanese', sans-serif;
+
+}
+
+p3{
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 0.8rem;
+
+}
+
+p4{
+    font-family: 'Noto Sans Japanese', sans-serif; \
+}
+
+.textbox{
+    margin: 2vw;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    line-height: 1.4em;
+}
+
+h-link{
+    color: hsla(0, 100%, 67%, 0.75);
+    text-decoration: underline;
+
+}
+
+h-sub{
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(0, 100%, 74%);
+
+
+    
+}
+
+
+
+
